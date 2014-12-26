@@ -1,22 +1,17 @@
-#Basic node setup
+# Basic node setup
 
-Node has a requirement and module based dependency system.
-
-To define this sort of connections Node uses require and module.
-For example:
-
-//app.js
-
-`var export = require('./export');`
-
-//export.js
-
-`module.exports.sayHello = sayHello;`
-
-To use this file make sure to have Node.js installed.
+#### Usage
 
 Clone this repo.
 
-cd nodebasic
+cd node-basic.
 
-In the terminal run node app.js
+npm install to install dependencies.
+
+IN the termianl run node app.js to start the server.
+
+In your favorite browser open localhost:3000.
+
+Your browser says "All aboard!!!"
+
+ctrl-c to stop the server.
