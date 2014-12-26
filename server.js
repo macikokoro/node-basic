@@ -4,9 +4,7 @@ var http = require('http');
 var app = express();
 
 // Route handler for the home path
-app.get('/', function(req, res){
-  res.send('All aboard!!!');
-});
+app.use(express.static(__dirname + '/public'));
 
 var server = http.createServer(app);
 server.listen(3000, function(){

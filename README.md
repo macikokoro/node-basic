@@ -1,4 +1,4 @@
-# Basic node setup
+# Basic express server
 
 #### Usage
 
@@ -8,10 +8,10 @@ cd node-basic.
 
 npm install to install dependencies.
 
-IN the termianl run node app.js to start the server.
+In the terminal run node server.js to start the server.
 
-In your favorite browser open localhost:3000.
+Fire up your favorite browser open localhost:3000.
 
-Your browser says "All aboard!!!"
+Your browser says "Hello user this is your first express server!!!"
 
 ctrl-c to stop the server.
