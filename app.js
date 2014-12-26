@@ -1,3 +1,3 @@
-var utilities = require('./utilities');
+var test = require('./test');
 
-console.log(utilities.sayHello());
+console.log(test.sayHello());
