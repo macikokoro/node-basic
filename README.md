@@ -1,4 +1,4 @@
-#Node's basic setup
+#Basic node setup
 
 Node has a requirement and module based dependency system.
 
